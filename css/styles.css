@@ -69,6 +69,7 @@ img {
 	line-height: 1.19;
 	color: var(--accent-txt-color);
 	text-decoration: none;
+	margin-right: 93px;
 	
 }
 
@@ -88,6 +89,10 @@ img {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+}
+
+.header-nav.current {
+	color: var(--accent-txt-color);
 }
 
 .header-nav .link {
@@ -115,6 +120,9 @@ img {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--grey-txt-color);
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .auth-nav .auth-nav-link:hover,
@@ -124,16 +132,18 @@ img {
 
 .auth-nav {
 	display: flex;
+	margin-left: auto;
 }
 
 
 .header-container {
 	display: flex;
 	align-items: center;
-}
+	}
 
 .nav-container {
 	display: flex;
+	align-items: center;
 }
 
 /* Герой */
