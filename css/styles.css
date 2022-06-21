@@ -168,10 +168,7 @@ img {
 
 .hero-title {
 	width: 696px;
-	margin-top: 0;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 30px;
+	margin: 0 auto 30px;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -271,7 +268,7 @@ img {
 	color: var(--black-txt-color-main);
 }
 .people-list .paragraf {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .people-list {
@@ -294,7 +291,6 @@ img {
 
 .portfolio-btn {
 	padding: 6px 22px;
-	margin-bottom: 50px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -313,6 +309,10 @@ img {
 .portfolio-btn:focus {
 	color: var(--white-txt-color);
 	background-color: var(--accent-txt-color);
+}
+
+.portfolio-container {
+margin-bottom: 50px;
 }
 
 .portfolio-nav-list {
@@ -357,7 +357,10 @@ img {
 .portfolio-work .item:nth-child(3n) {
 	margin-right: 0;
 }
-.portfolio-work .item:nth-child(- n + 3) {
+/* .portfolio-work .item:nth-last-child(- n + 3) {
+	margin-bottom: 0;
+} */
+.portfolio-work .item:nth-child(n + 6) {
 	margin-bottom: 0;
 }
 
@@ -375,6 +378,17 @@ img {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
+.logo-footer {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-txt-color);
+	text-decoration: none;
+	
+}
+
 .adress-container {
 	margin-top: 10px;
 }
@@ -394,6 +408,10 @@ img {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--white-txt-color);
+}
+
+.footer-list {
+margin-top: 20px;
 }
 
 .footer-auth {
