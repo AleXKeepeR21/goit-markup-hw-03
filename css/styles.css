@@ -351,17 +351,25 @@ margin-bottom: 50px;
 
 .portfolio-work .item {
 	width: calc((100% - 60px) / 3);
-	margin-right: 30px;
-	margin-bottom: 30px;
+	
+	
 }
-.portfolio-work .item:nth-child(3n) {
+/* .portfolio-work .item:nth-child(3n) {
 	margin-right: 0;
-}
+} */
+
 /* .portfolio-work .item:nth-last-child(- n + 3) {
 	margin-bottom: 0;
 } */
-.portfolio-work .item:nth-child(n + 6) {
+/* .portfolio-work .item:nth-child(n + 6) {
 	margin-bottom: 0;
+} */
+
+.portfolio-work .item:not(:nth-child(3n)) {
+margin-right: 30px;
+}
+.portfolio-work .item:not(:nth-last-child(- n + 3)) {
+margin-bottom: 30px;
 }
 
 .portfolio-work-border {
